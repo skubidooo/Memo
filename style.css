@@ -1,0 +1,24 @@
+.game{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-card {
+    display: flex;
+    flex-basis: 24%;
+    height: 33.33vh ;
+    border: 4px solid white;
+}
+
+
+.off {
+    background-color: beige; 
+}
+
+.hidden {
+    background-color:black;
+}
